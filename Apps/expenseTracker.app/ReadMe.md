@@ -1,0 +1,19 @@
+Resources	Description
+
+expenseTracker Bundle	
+expenseTracker.app	The top-level component that contains all other components
+	
+Form Bundle	
+form.cmp	                A collection of Lightning input components to collect user input.
+formController.js	        A client-side controller containing actiosn to handle user interactions on the form.
+formhelper.js	            A client-side helper functions called by the contoller actions
+form.css	                The styles for the for component
+	
+expenseList Bundle	
+expenseList.cmp	          A collection of Lightning output components to display data from expense records
+expenseListController.js	A client-side controller containing actions to handle user interactions on the display of the expense list
+	
+Apex Class	
+ExpenseController.apxc	  Apex controller that loads data, inserts, or updates an expense record
+Event	
+updateExpenseItem.evt	    The event fired when an expense item is updated from the display of the expense list
