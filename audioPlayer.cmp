@@ -2,6 +2,9 @@
     <ltng:require scripts="/resource/cometd,
                            /resource/jquery,
                            /resource/jquery_cometd,
-                           /resource/json2"/>
+                           /resource/json2,
+                           /resource/jquery_cookie,
+                           /resource/audio"/>
 	
+    <audio src="/resource/cust_s01x" id="theAudio" autoplay="autoplay" />
 </aura:component>
