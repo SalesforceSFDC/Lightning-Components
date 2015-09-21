@@ -1,0 +1,7 @@
+<aura:component >
+    <ltng:require scripts="/resource/cometd,
+                           /resource/jquery,
+                           /resource/jquery_cometd,
+                           /resource/json2"/>
+	
+</aura:component>
