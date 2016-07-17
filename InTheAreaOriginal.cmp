@@ -1,0 +1,28 @@
+<aura:component implements="force:appHostable, flexipage:availableForAllPageTypes,      flexipage:availableForRecordHome, force:hasRecordId" access="global" >
+<div aura:id="main">
+  <div aura:id="panelList">
+    <header>
+      <h2>In the Area</h2>
+      <div>
+        <label for="searchTerm">Search</label>
+        <div>
+            <ui:inputText aura:id="searchTerm" label="searchTerm" placeholder="Search for..." />
+        </div>
+      </div>
+    </header>
+    <div aura:id="scrollableArea">
+      <ul>
+        <li>
+            <h3>Item 1</h3>
+        </li>
+        <li>
+            <h3>Item 2</h3>
+        </li>
+        <li>
+            <h3>Item 3</h3>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</aura:component>
