@@ -1,0 +1,6 @@
+<aura:component controller="MyContactListController">
+    //This event handler call the myAction client-side controller to handle initialization
+    <aura:handler name="init" action="{!c.myAction}" value="{!this}" />
+    //Make the list of contacts accessible to the component
+    <aura:attribute name="contacts" type="Contact[]" />
+</aura:component>
