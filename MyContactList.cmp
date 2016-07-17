@@ -3,4 +3,10 @@
     <aura:handler name="init" action="{!c.myAction}" value="{!this}" />
     //Make the list of contacts accessible to the component
     <aura:attribute name="contacts" type="Contact[]" />
+    <ul>
+        // iterate over the line list of contacts and display their names
+<aura:iteration items="{!v.contacts}" var="contact">
+	<li class="minli"> <h3>{!contact.Name}</h3> </li>
+</aura:iteration>
+	</ul> 
 </aura:component>
