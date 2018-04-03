@@ -5,3 +5,9 @@
 
 ## LockerService: Making Lightning Components More Secure
 * solution to make Lightning components more secure and restrict JavaScript’s unfettered access
+
+### LockerService’s features also enable:
+* Client-side API versioning
+* Faster security review (AppExchange)
+* Better JavaScript development practices
+* Easy updates to security features and policies
