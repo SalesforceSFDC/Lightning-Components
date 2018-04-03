@@ -4,3 +4,4 @@
 * [harnessApp](https://crmsystems-dev-ed.lightning.force.com/c/harnessApp.app)
 
 ## LockerService: Making Lightning Components More Secure
+* solution to make Lightning components more secure and restrict JavaScript’s unfettered access
