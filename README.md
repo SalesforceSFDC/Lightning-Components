@@ -11,3 +11,5 @@
 * Faster security review (AppExchange)
 * Better JavaScript development practices
 * Easy updates to security features and policies
+
+* Value providers are a way to group, encapsulate, and access related data. 
