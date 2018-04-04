@@ -18,3 +18,10 @@
 * for Lightning Components, a controller is a resource in a component bundle that holds the action handlers for that component. And action handlers are just JavaScript functions with a particular function signature.
 * In traditional MVC, the model is a programmatic abstraction (usually a class) between the underlying data storage (usually a relational database) and the rest of the application. In Lightning Components, there’s no Apex class that directly stands in between @AuraEnabled controller methods and DML operations. But then again, sObjects are already an abstraction between your Apex code and the underlying storage layer. You can add calculation fields, validation logic, and even add fully programmatic behavior in the form of triggers.
 * <b>action handler</b> - The combination of name-value pair and specific function signature.
+
+### Functions
+The action handler name, followed by an anonymous function declaration. Function signature: while it’s not technically required, you should always declare your controller functions to take these three parameters:
+
+* component—the component. In this case, it’s helloMessageInteractive.
+* event—the event that caused the action handler to be called.
+* helper—the component’s helper, another JavaScript resource of reusable functions.
