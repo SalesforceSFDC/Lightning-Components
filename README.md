@@ -25,3 +25,13 @@ The action handler name, followed by an anonymous function declaration. Function
 * component—the component. In this case, it’s helloMessageInteractive.
 * event—the event that caused the action handler to be called.
 * helper—the component’s helper, another JavaScript resource of reusable functions.
+
+```javascript
+({
+    handleClick: function(component, event, helper) {
+        var btnClicked = event.getSource();         // the button
+        var btnMessage = btnClicked.get("v.label"); // the button's label
+        component.set("v.message", btnMessage);     // update our message
+    }
+})
+```
