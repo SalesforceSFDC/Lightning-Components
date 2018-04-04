@@ -13,3 +13,4 @@
 * Easy updates to security features and policies
 
 * Value providers are a way to group, encapsulate, and access related data. 
+* `c` is the value provider for the component’s client-side controller, and `handleClick` is a function defined in that controller. So, `{!c.handleClick}` is a reference to an action handler in the component’s controller.
