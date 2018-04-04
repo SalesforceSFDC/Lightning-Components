@@ -35,3 +35,6 @@ The action handler name, followed by an anonymous function declaration. Function
     }
 })
 ```
+* `handleClick` is connected to our `<lightning:button>` tag and its `onclick` attribute.
+* The `event`, then, is someone clicking the button. Inside that `event` it has the notion of a `source`, the thing that generated the `event`, which is the button itself. So, calling `event.getSource()` gets us a reference to the specific `<lightning:button>` that was clicked.
+
