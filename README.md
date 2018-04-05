@@ -2,7 +2,6 @@
 
 ## Table of Content
 
-
 * [Container Page](https://developer.salesforce.com/docs/atlas.en-us.210.0.pages.meta/pages/pages_html_container_page.htm)
 * [harnessApp](https://crmsystems-dev-ed.lightning.force.com/c/harnessApp.app)
 
@@ -49,3 +48,5 @@ The action handler name, followed by an anonymous function declaration. Function
 * You can call `get()` on any component and provide the name of the attribute you want to retrieve, in the format `v.attributeName`. The result is the attribute value.
 
 * This is a pattern you’ll repeat in virtually every component you create: get values from child components, maybe do some processing, and set values in the component itself.
+
+* Adding `{!c.handleClick}` to the onclick attribute of a `<lightning:button>` component (1) wires it up to the specific action handler. Calling `component.set("v.message", newMessage)` (2) wires up the result of that action handler to the component’s message attribute. Which is itself wired up to the `{!v.message}` expression.
