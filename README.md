@@ -50,3 +50,13 @@ The action handler name, followed by an anonymous function declaration. Function
 * This is a pattern you’ll repeat in virtually every component you create: get values from child components, maybe do some processing, and set values in the component itself.
 
 * Adding `{!c.handleClick}` to the onclick attribute of a `<lightning:button>` component (1) wires it up to the specific action handler. Calling `component.set("v.message", newMessage)` (2) wires up the result of that action handler to the component’s message attribute. Which is itself wired up to the `{!v.message}` expression.
+
+```javascript
+    handleClick2: function(component, event, helper) {
+        var newMessage = event.getSource().get("v.label");
+        component.set("v.message", newMessage);
+    },
+    handleClick3: function(component, event, helper) {
+        component.set("v.message", event.getSource().get("v.label"));
+    }
+```
