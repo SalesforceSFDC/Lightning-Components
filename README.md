@@ -11,6 +11,7 @@
 * [Build a Restaurant-Locator Lightning Component](https://trailhead.salesforce.com/projects/workshop-lightning-restaurant-locator/steps/yelp_3)
 * [Lightning Components Basics](https://trailhead.salesforce.com/modules/lex_dev_lc_basics/units/lex_dev_lc_basics_intro)
 * [Lightning Data Service Basics](https://trailhead.salesforce.com/modules/lightning_data_service/units/lightning_data_service_handle_notifications)
+* [LIGHTNING DESIGN SYSTEM](https://www.lightningdesignsystem.com/)
 
 ## Lightning Components
 * `<lightning:card>` creates a container around a group of information.
