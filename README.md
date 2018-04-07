@@ -2,10 +2,11 @@
 
 ## Table of Content
 
+## Resources 
 * [Container Page](https://developer.salesforce.com/docs/atlas.en-us.210.0.pages.meta/pages/pages_html_container_page.htm)
 * [harnessApp](https://crmsystems-dev-ed.lightning.force.com/c/harnessApp.app)
 * [Configure Components for Lightning Pages and the Lightning App Builder](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/components_config_for_app_builder.htm)
-
+* [Data Binding Between Components](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/expr_data_binding.htm)
 
 ## Lightning Components
 * `<lightning:card>` creates a container around a group of information.
