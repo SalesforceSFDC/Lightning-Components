@@ -8,6 +8,7 @@
 * [Configure Components for Lightning Pages and the Lightning App Builder](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/components_config_for_app_builder.htm)
 * [Data Binding Between Components](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/expr_data_binding.htm)
 * [Apex Integration Services](https://trailhead.salesforce.com/modules/apex_integration_services/units/apex_integration_rest_callouts)
+* [Build a Restaurant-Locator Lightning Component](https://trailhead.salesforce.com/projects/workshop-lightning-restaurant-locator/steps/yelp_3)
 
 ## Lightning Components
 * `<lightning:card>` creates a container around a group of information.
