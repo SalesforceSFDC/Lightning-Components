@@ -14,6 +14,7 @@
 * [LIGHTNING DESIGN SYSTEM](https://www.lightningdesignsystem.com/)
 * [Component Library](https://developer.salesforce.com/docs/component-library?page=componentsHome)
 * [Handling Events with Client-Side Controllers](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/js_client_side_controller.htm)
+* [Incorporate Data from The Weather Company in Salesforce](https://trailhead.salesforce.com/projects/incorporate-ibm-weather-company-data/steps/lightning-component-display-weather)
 
 ## Lightning Components
 * `<lightning:card>` creates a container around a group of information.
