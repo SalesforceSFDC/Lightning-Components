@@ -13,6 +13,7 @@
 * [Lightning Data Service Basics](https://trailhead.salesforce.com/modules/lightning_data_service/units/lightning_data_service_handle_notifications)
 * [LIGHTNING DESIGN SYSTEM](https://www.lightningdesignsystem.com/)
 * [Component Library](https://developer.salesforce.com/docs/component-library?page=componentsHome)
+* [Handling Events with Client-Side Controllers](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/js_client_side_controller.htm)
 
 ## Lightning Components
 * `<lightning:card>` creates a container around a group of information.
