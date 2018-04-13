@@ -51,3 +51,12 @@ The "Get Data" button wires the onclick attribute in the <lightning:button> comp
 })
 ```
 * The handleClick action uses `event.getSource()` to get the source component that fired this component event. In this case, the source component is the `<lightning:button>` in the markup.
+* The code then sets the value of the text component attribute to the value of the button’s label attribute. The text component attribute is defined in the <aura:attribute> tag in the markup.
+
+### Accessing Component Attributes
+In the handleClick function, notice that the first argument to every action is the component to which the controller belongs. One of the most common things you'll want to do with this component is look at and change its attribute values.
+* `cmp.get("v.attributeName")` returns the value of the attributeName attribute.
+* `cmp.set("v.attributeName", "attribute value")` sets the value of the attributeName attribute.
+
+
+
