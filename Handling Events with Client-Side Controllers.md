@@ -29,3 +29,8 @@ A client-side controller is a JavaScript object in object-literal notation conta
     {!v.text}
 </aura:component>
 ```
+```xml
+<aura:component>
+    <lightning:button label="Framework Button" onclick="{!c.handleClick}"/>
+</aura:component>
+```
