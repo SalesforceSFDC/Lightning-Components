@@ -8,3 +8,8 @@ Apex controller must follow these requirements:
 ### Returning Data from an Apex Server-Side Controller
 * Return results from a server-side controller to a client-side controller using the <b>return statement</b>. 
 * Results data must be serializable into JSON format.
+* Return data types can be any of the following:
+    * Simple—String, Integer, and so on. 
+    * sObject—standard and custom sObjects are both supported. 
+    * Apex—an instance of an Apex class. (Most often a custom class.) 
+    * Collection—a collection of any of the other types. 
