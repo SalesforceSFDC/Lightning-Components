@@ -50,3 +50,4 @@ The "Get Data" button wires the onclick attribute in the <lightning:button> comp
     }
 })
 ```
+* The handleClick action uses `event.getSource()` to get the source component that fired this component event. In this case, the source component is the `<lightning:button>` in the markup.
