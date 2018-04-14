@@ -31,6 +31,11 @@
 * [How to display a specific list in a component lightning?](https://salesforce.stackexchange.com/questions/174967/how-to-display-a-specific-list-in-a-component-lightning/174994)
 * [Surface Data from IBM Watson Discovery in Salesforce](https://trailhead.salesforce.com/projects/surface-data-from-ibm-watson-discovery-in-salesforce/steps/add-customized-watson-discovery-search-to-account-records)
 * [JSON2Apex](https://json2apex.herokuapp.com/)
+* [Returning Data from an Apex Server-Side Controller](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/controllers_server_apex_returning_data.htm)
+#
+* [aura:storage use](https://salesforce.stackexchange.com/questions/147247/aurastorage-use)
+
+
 ## Lightning Components
 * `<lightning:card>` creates a container around a group of information.
 * `<lightning:formattedDateTime>` displays formatted date and time.
