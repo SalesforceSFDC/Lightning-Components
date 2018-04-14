@@ -28,6 +28,8 @@
 * [Lightning Components and JavaScript Libraries](http://bobbuzzard.blogspot.co.uk/2015/04/lightning-components-and-javascript.html)
 * [Calling a Server-Side Action](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/controllers_server_actions_call.htm?search_text=action.setParams)
 #
+* [How to display a specific list in a component lightning?](https://salesforce.stackexchange.com/questions/174967/how-to-display-a-specific-list-in-a-component-lightning/174994)
+* [Surface Data from IBM Watson Discovery in Salesforce](https://trailhead.salesforce.com/projects/surface-data-from-ibm-watson-discovery-in-salesforce/steps/add-customized-watson-discovery-search-to-account-records)
 
 ## Lightning Components
 * `<lightning:card>` creates a container around a group of information.
