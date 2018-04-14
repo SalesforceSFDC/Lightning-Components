@@ -21,12 +21,18 @@
 * [dreamhouseapp](https://github.com/dreamhouseapp)
 * [Lightning Component Wrapper Classes](http://bobbuzzard.blogspot.com/2015/12/lightning-component-wrapper-classes.html)
 * [Keir Bowden](https://gist.github.com/keirbowden/4382adba5663dfb9d4f7)
+* [keirbowden/AccountWrappersHelper.js](https://gist.github.com/keirbowden/12aeb7aa62f07132c2a7)
+#
+* [keirbowden/AccountWrappersController.js](https://gist.github.com/keirbowden/2acf95dd209d8d59203f)
+* [Lightning Application Events](http://bobbuzzard.blogspot.co.uk/2015/05/lightning-component-events.html)
+* [Lightning Components and JavaScript Libraries](http://bobbuzzard.blogspot.co.uk/2015/04/lightning-components-and-javascript.html)
+* [Calling a Server-Side Action](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/controllers_server_actions_call.htm?search_text=action.setParams)
+#
 
 ## Lightning Components
 * `<lightning:card>` creates a container around a group of information.
 * `<lightning:formattedDateTime>` displays formatted date and time.
 * `<lightning:relativeDateTime>` displays the relative time difference between the current time and the provided time.
-
 ## LockerService: Making Lightning Components More Secure
 * solution to make Lightning components more secure and restrict JavaScript’s unfettered access
 
