@@ -19,6 +19,9 @@
 * [Incorporate Data from The Weather Company in Salesforce](https://trailhead.salesforce.com/projects/incorporate-ibm-weather-company-data/steps/lightning-component-display-weather)
 #
 * [dreamhouseapp](https://github.com/dreamhouseapp)
+* [Lightning Component Wrapper Classes](http://bobbuzzard.blogspot.com/2015/12/lightning-component-wrapper-classes.html)
+* [Keir Bowden](https://gist.github.com/keirbowden/4382adba5663dfb9d4f7)
+
 ## Lightning Components
 * `<lightning:card>` creates a container around a group of information.
 * `<lightning:formattedDateTime>` displays formatted date and time.
