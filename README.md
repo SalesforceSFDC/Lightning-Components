@@ -34,7 +34,8 @@
 * [Returning Data from an Apex Server-Side Controller](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/controllers_server_apex_returning_data.htm)
 #
 * [aura:storage use](https://salesforce.stackexchange.com/questions/147247/aurastorage-use)
-
+* [Need to pass parameters to lightning-controller on Button click in Lightning Component](https://developer.salesforce.com/forums/?id=906F0000000kAn0IAE)
+* [Compile Error: Missing return statement required return type](https://developer.salesforce.com/forums/?id=9060G000000UWZOQA4)
 
 ## Lightning Components
 * `<lightning:card>` creates a container around a group of information.
