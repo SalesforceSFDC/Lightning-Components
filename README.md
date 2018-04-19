@@ -60,6 +60,10 @@
 ### Attributes 
 * Attributes on components are like instance variables in objects. They’re a way to save values that change, and a way to name those value placeholders. 
 
+* When an attribute of a component is an object or other structured data (that is, not a primitive value), access the values on that attribute using the same dot notation. For example, {!v.account.Id} accesses the Id field of an account record. For deeply nested objects and attributes, continue adding dots to traverse the structure and access the nested values.
+
+*  The `<aura:iteration>` component repeats its body once per item in its items attribute
+
 ### Events
 User clicks a button that requires the component to retrieve data from the server:
 * User clicks a button or interacts with a component, triggering a browser event. For example, you want to save data from the server when the button is clicked.
