@@ -67,6 +67,7 @@
 ## Client (Javascript) Controllers
 * c is the value provider for the component’s client-side controller, and handleClick is a function defined in that controller. 
 * `{!c.handleClick}` is a reference to an action handler in the component’s controller.
+* `controller`  defines app’s behavior when “things happen,” whereby “things” we mean user input, timer and other events, data updates, and so on.
 
 ### Events
 User clicks a button that requires the component to retrieve data from the server:
