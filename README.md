@@ -64,6 +64,10 @@
 
 *  The `<aura:iteration>` component repeats its body once per item in its items attribute
 
+## Client (Javascript) Controllers
+* c is the value provider for the component’s client-side controller, and handleClick is a function defined in that controller. 
+* `{!c.handleClick}` is a reference to an action handler in the component’s controller.
+
 ### Events
 User clicks a button that requires the component to retrieve data from the server:
 * User clicks a button or interacts with a component, triggering a browser event. For example, you want to save data from the server when the button is clicked.
