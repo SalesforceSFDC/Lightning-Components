@@ -79,6 +79,9 @@ User clicks a button that requires the component to retrieve data from the serve
 * A JavaScript callback function is invoked when the Apex method completes.
 * The JavaScript callback function evaluates logic and updates the component’s UI.
 
+### Action Handlers
+* <b>Action Handler</b> - name-value pair and specific function signature 
+
 ### Functions
 The action handler name, followed by an anonymous function declaration. Function signature: while it’s not technically required, you should always declare your controller functions to take these three parameters:
 
