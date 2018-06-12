@@ -4,4 +4,6 @@
 publish-subscribe model.
 * [Aura Framework](https://github.com/forcedotcom/aura)
 #
-implements="force:appHostable" - tab
+* implements="force:appHostable" - tab
+* To retrieve a component’s global ID in JavaScript, use the getGlobalId() function.
+`var globalId = cmp.getGlobalId();`
