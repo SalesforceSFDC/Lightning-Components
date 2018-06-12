@@ -3,3 +3,5 @@
 * Application events are handled by all components that are listening to the event. These events are essentially a traditional
 publish-subscribe model.
 * [Aura Framework](https://github.com/forcedotcom/aura)
+#
+implements="force:appHostable" - tab
